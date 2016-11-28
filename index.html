@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Balykina JS-7-8</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<body>
+<div class="tabs">
+<div class="top-menu">
+  <ul class="tabs__caption">
+    <li class="jQuery active"></li>
+    <li class="jQueryUI"></li>
+    <li class="jQueryMobile"></li>
+    <li class="Sizzle"></li>
+    <li class="qUnit"></li>
+  </ul>
+</div>
+    <div id="jQuery-pannel" class="tabs__content active">
+        <div class="forms">     
+            <div class="form-label">
+                <p>First name</p>
+                <input type="text" class="data-tooltip">
+                <div id="firstname" class="tooltip">Please provide your first name</div>
+            </div>
+            <div class="form-label">    
+                <p>Last name</p>
+                <input type="text" class="data-tooltip">
+                <div id="lastname" class="tooltip">Please provide your last name</div>
+            </div>
+            <div class="form-label">
+                <p>Address</p>
+                <input type="text" class="data-tooltip">
+                <div id="address" class="tooltip">Your home or work address</div>
+            </div>
+            
+        </div>
+        <button class="show-tooltip">Show tooltip</button>
+    </div>
+  <div id="jQueryUI-pannel" class="tabs__content"></div>
+  <div id="jQueryMobile-pannel" class="tabs__content"></div>
+  <div id="Sizzle-pannel" class="tabs__content"></div>
+  <div id="qUnit-pannel" class="tabs__content"></div>
+</div>
+  
+<script src="js/script.js"></script>
+</body>
+</html>

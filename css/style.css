@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu {
+    background: url(../images/jq-global-nav.png) repeat-x 0 bottom #1b1b1b;
+    height: 34px;
+    width: 100%;
+}
+
+.tabs__content {
+    display: none;
+    height: 100vh;
+    width: 100% 
+}
+
+.tabs__content.active {
+    display: block; 
+}
+
+.tabs__caption {
+    display: flex;
+    list-style: none;
+    padding: 4px 0 0 35px;
+}
+
+.tabs__caption li {
+    height: 30px;
+    width: 45px;
+}
+
+ul .active {
+    background-position-y: -38px;
+}
+
+.jQuery {
+    background: url(../images/jq-nav-icons.png) 0 0 no-repeat;
+}
+
+.jQueryUI {
+    background: url(../images/jq-nav-icons.png) -53px 0 no-repeat;
+}
+
+.jQueryMobile {
+    background: url(../images/jq-nav-icons.png) -103px 0 no-repeat;
+}
+.Sizzle {
+    background: url(../images/jq-nav-icons.png) -150px 0 no-repeat;
+}
+
+.qUnit{
+    background: url(../images/jq-nav-icons.png) -205px 0 no-repeat;
+}
+
+#jQuery-pannel {
+    background: #0769ad;
+}
+
+#jQueryUI-pannel {
+    background: #b24926;
+}
+
+#jQueryMobile-pannel {
+    background: #108040;
+}
+
+#Sizzle-pannel {
+    background: #9a1b1e;
+}
+
+#qUnit-pannel {
+    background: #390f39;
+}
+
+.forms {
+    padding: 25px 0 0 50px;
+}
+
+.form-label {
+    display: flex;
+    
+}
+
+p {
+    padding-top: 11px; 
+    width: 70px;
+}
+
+input {
+    height: 25px;
+    margin: 5px;
+    width: 150px;
+}
+
+.tooltip {
+    display: none;
+    background: rgba(255, 255, 255, .5);
+    border: 1px solid #888;
+    border-radius: 5px;
+    height: 20px;
+    margin: 3px 0 0 231px;
+    padding: 5px 10px;
+    position: absolute;
+    width: 200px;
+}
+
+.show-tooltip {
+    border: 1px solid #888;
+    border-radius: 5px;
+    height: 25px;
+    margin: 20px 0 0 47px;
+    width: 100px;
+}
